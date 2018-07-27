@@ -11,4 +11,4 @@ let newID = oldID + 1000000000;
 let ageIsValid = Number.isInteger(currentAge);
 let randomNumber = (Math.random() * 10) + 11;
 let randomInteger = Math.floor(randomNumber);
-let randomUserID = Math.ceil(randomInteger + 1000000000);
+let randomUserID = Math.ceil(newID);
